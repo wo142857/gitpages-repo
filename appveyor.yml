@@ -3,7 +3,6 @@ environment:
     access_token:
         secure: Ylty2SbidfhNYEjSfsMzWoreCmzG2uWYW9rzq2N9US/zoHxufA4mBjbgnKl0Y09i
 install:
-    - git submodule update --init --recursive
     - node --version
     - npm --version
     - npm install
